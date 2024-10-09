@@ -1,0 +1,49 @@
+.nav{
+    width:100%;
+    background-color: rgb(83, 203, 240);
+    border:2px solid grey;
+    display:flex;
+    
+    
+}
+.nav h2{
+    margin-left: 30%;
+}
+.nav select{
+    width:40%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: black;
+    color: white;    
+}
+.nav select:hover{
+    cursor: pointer;
+    background-color: rgb(165, 168, 160);
+}
+
+.parentDiv{
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: rgb(62, 100, 129);
+    border:10px solid red;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 5px;
+}
+.startbtn{
+    
+    display:flex;
+    border:2px solid;
+    border-radius: 10px;
+    background-color: rgb(35, 224, 129);
+    margin:12px;
+    margin-left: 30%;
+    position:relative;
+    font-size: 40px;
+    color:white;
+    cursor: pointer;
+} 
